@@ -28,7 +28,7 @@ export const onNavigate = (pathname) => {
   );
   while (root.firstChild) {
     root.removeChild(root.firstChild);
-  } return root.appendChild(routes[pathname]());
+  }
 };
 
 window.addEventListener('DOMContentLoaded', () => {
